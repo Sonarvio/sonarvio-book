@@ -12,4 +12,5 @@
    * [Fingerprint](fingerprint.md)
    * [Alternatives](alternatives.md)
 * Conclusion
+   * Result
 
