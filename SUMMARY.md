@@ -8,4 +8,5 @@
    * [Implementation](implementation.md)
    * [Problems](problems.md)
    * [Solutions](solutions.md)
+   * Fingerprint
 
