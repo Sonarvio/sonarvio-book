@@ -24,4 +24,4 @@ source.connect(processor)
 processor.connect(atx.destination)
 ```
 
-In theory the `uncompressedData` could then be further used to create an acoustic fingerprint to compare the source with others. Unfortunately the Web Audio API, especially the [MediaElementAudioSource](https://developer.mozilla.org/en-US/docs/Web/API/MediaElementAudioSourceNode), has some less documented issues.
+In theory the `uncompressedData` could then be used further to create an acoustic fingerprint for comparison with other sources. Unfortunately the Web Audio API, especially the [MediaElementAudioSource](https://developer.mozilla.org/en-US/docs/Web/API/MediaElementAudioSourceNode), has some less documented issues.
