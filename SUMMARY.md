@@ -7,5 +7,5 @@
 * [First Chapter](chapter1.md)
    * [Implementation](implementation.md)
    * [Problems](problems.md)
-   * Solutions
+   * [Solutions](solutions.md)
 
