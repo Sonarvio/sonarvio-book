@@ -10,4 +10,5 @@
    * [Solutions](solutions.md)
    * [Formats](formats.md)
    * [Fingerprint](fingerprint.md)
+   * Alternatives
 
