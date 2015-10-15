@@ -12,4 +12,4 @@ Since they use a Content Delivery Network (CDN) from another origin, the content
 Uncaught InvalidStateError: Failed to execute 'createMediaElementSource' on 'AudioContext': HTMLMediaElement already connected previously to a different MediaElementSourceNode
 ``
 
-The Web Audio API uses a setup of connecting nodes for in- and output. Putting this flow together enables developers to work on the underlying data with a minimal overhead, but it requires knowledge about the overall structure. Once a node is used in an active channel - its internals can't be accessed from another node.
+The Web Audio API uses a setup of connecting nodes for in- and output. Putting this flow together enables developers to work on the underlying data with a minimal overhead, but it requires knowledge about the overall structure. Once a node is used in an active channel - its internals can't be accessed from another node before it gains it control back.
