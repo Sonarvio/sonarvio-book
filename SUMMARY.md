@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
    * [Abstract](abstract.md)
-   * Introduction
+   * [Introduction](introduction.md)
 * [First Chapter](chapter1.md)
 
