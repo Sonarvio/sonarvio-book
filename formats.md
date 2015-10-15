@@ -13,10 +13,11 @@ Since MP4 is available a bit longer and has good browser support compared to the
 
 Whatever format got used, it first needs be decoded to access the original audio track. Originally a custom binary parser for both format was created, but canceled in favor for a more extensible solution. Instead of writing a decoder from scratch, an optimized emscripted FFmpeg port is used for the converter. In contrast to other implementations using [Emscripten](http://kripken.github.io/emscripten-site/), it provides specific builds for each container to include only a minimal subset of the regular codecs to reduce the filesize. Moreover it takes advantage of technologies like WebWorkers and asm.js for a better performance.
 
-Integrating these builds in a browser extension lead to another challenge: Web Workers can't use the referenced Scripts. Its another CORS issue and for full disclosure it should be mentioned that Web Workers in general can't use scripts from another origin. Browser vendors often provide their own context to create an isolated environment for external extensions and plugins. In the end a proxy system got created to solve this problem. It works as following:
+Integrating these builds in a browser extension lead to another challenge: Web Workers can't use the referenced Scripts. Its another CORS issue and for full disclosure it should be mentioned that Web Workers in general can't use scripts from another origin. Browser vendors often provide their own context to create an isolated environment for external extensions and plugins. Handling the conversion through a worker prevents blocking the main thread of other JavaScript executions and would be necessary for extensive computations. In the end a proxy system got created to solve this problem. It works as following:
 
 1. an iframe is dyanmically created which points to a HTML on the other domain
 2. the HTML file references a script which adds a listener for PostMessages and works as a proxy for commands send from the iframes parent window
 3. the proxy script creates a new web worker with the demanded script from the same origin
 4. an API for the local script is defined to exchange messages with the receiving remote script	and return values
 
+After experiencing an ongoing issue with the compatibility the opus codec in Chrome, 
