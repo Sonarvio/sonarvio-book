@@ -8,6 +8,6 @@
    * [Implementation](implementation.md)
    * [Problems](problems.md)
    * [Solutions](solutions.md)
-   * [Fingerprint](fingerprint.md)
    * [Formats](formats.md)
+   * [Fingerprint](fingerprint.md)
 
