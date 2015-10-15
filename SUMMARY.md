@@ -9,4 +9,5 @@
    * [Problems](problems.md)
    * [Solutions](solutions.md)
    * [Formats](formats.md)
+       * Fingerprint
 
