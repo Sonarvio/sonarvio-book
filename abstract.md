@@ -8,3 +8,7 @@ for further lookups.
 
 
 All material and code is available at Github: [http://github.com/Sonarvio](http://github.com/sonarvio)
+
+
+
+![Sonarvio](Sonarvio-Icon--origin.svg)
