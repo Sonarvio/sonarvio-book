@@ -1,8 +1,5 @@
 
 
-All material and code is available at Github: [http://github.com/Sonarvio](http://github.com/sonarvio)
-
-
 
 ## Introduction
 
