@@ -6,9 +6,9 @@
    * [Tools](tools.md)
    * [Problems](problems.md)
    * [Solutions](solutions.md)
+   * [Formats](formats.md)
    * [Alternatives](alternatives.md)
    * [Fingerprint](fingerprint.md)
-* [Formats](formats.md)
 * [Implementation](implementation.md)
 * [Result](result.md)
 * Conclusion
