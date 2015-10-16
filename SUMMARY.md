@@ -7,7 +7,6 @@
 * [Implementation](implementation.md)
 * [Problems](problems.md)
 * [First Chapter](chapter1.md)
-   * [Problems](problems.md)
    * [Solutions](solutions.md)
    * [Formats](formats.md)
    * [Fingerprint](fingerprint.md)
