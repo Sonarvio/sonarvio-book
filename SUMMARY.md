@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * [Alternatives](alternatives.md)
    * [Foreword](forewordmd.md)
    * [Structure](structure.md)
    * [Tools](tools.md)
@@ -9,9 +10,7 @@
 * [Implementation](implementation.md)
 * [Problems](problems.md)
 * [First Chapter](chapter1.md)
-   * [Solutions](solutions.md)
    * [Fingerprint](fingerprint.md)
-   * [Alternatives](alternatives.md)
 * [Result](result.md)
 * Conclusion
 
