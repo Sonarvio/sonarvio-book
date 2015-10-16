@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Alternatives](alternatives.md)
    * [Foreword](forewordmd.md)
+   * [Alternatives](alternatives.md)
    * [Fingerprint](fingerprint.md)
    * [Structure](structure.md)
    * [Tools](tools.md)
