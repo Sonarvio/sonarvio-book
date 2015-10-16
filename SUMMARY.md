@@ -4,6 +4,7 @@
    * [Foreword](forewordmd.md)
    * [Structure](structure.md)
    * [Tools](tools.md)
+* [Formats](formats.md)
 * [Implementation](implementation.md)
 * [Problems](problems.md)
 * [First Chapter](chapter1.md)
