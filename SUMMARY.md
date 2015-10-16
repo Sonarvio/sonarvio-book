@@ -11,6 +11,7 @@
    * [Formats](formats.md)
    * [Fingerprint](fingerprint.md)
    * [Alternatives](alternatives.md)
+* [Result](result.md)
 * Conclusion
    * [Result](result.md)
 
