@@ -10,7 +10,6 @@
 * [Formats](formats.md)
 * [Implementation](implementation.md)
 * [Problems](problems.md)
-* [First Chapter](chapter1.md)
 * [Result](result.md)
 * Conclusion
 
