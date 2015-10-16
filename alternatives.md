@@ -6,4 +6,4 @@ For once there is the option to search for tracks by using lyrics. The [musixmat
 
 Another option will be the possibility to find a song by specifying a movie or show. The client for the tunefind API is already implemented and will be used through a user interface in the next step.
 
-Taking recordings from a file or the microphone got postponed for the same reason as the extension - an proper print algorithm is necessary to workaround the limited amount of time and background noises.
+Taking recordings from a file or the microphone got postponed for the same reason as the extension: an proper fingerprint algorithm is necessary to workaround the limited amount of time and background noises.
