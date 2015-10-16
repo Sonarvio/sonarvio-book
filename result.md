@@ -1,6 +1,6 @@
 # Result
 
-Although the prototype of the web application and extension doesn't achieve their initial goal, they provide a solid foundation further work. 
+Although the prototype of the web application and extension doesn't achieve their initial goal, they provide a solid foundation for further work. 
 
 Through its implemenation 
 
