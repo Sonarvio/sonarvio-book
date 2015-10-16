@@ -8,7 +8,7 @@
    * [Problems](problems.md)
    * [Solutions](solutions.md)
    * [Formats](formats.md)
-   * [Alternatives](alternatives.md)
    * [Fingerprint](fingerprint.md)
+   * [Alternatives](alternatives.md)
    * [Result](result.md)
 
