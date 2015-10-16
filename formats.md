@@ -20,4 +20,4 @@ Integrating these builds in a browser extension lead to another challenge: Web W
 3. the proxy script creates a new web worker with the demanded script from the same origin
 4. an API for the local script is defined to exchange messages with the receiving remote script	and return values
 
-Afterwards an ongoing issue with the [compatibility of the opus audio codec in Chrome](https://code.google.com/p/chromium/issues/detail?id=409402) was experienced, which was handled by doing an intermediate conversion into the WAV format.
+Afterwards an ongoing issue with the [compatibility of the opus audio codec in Chrome](https://code.google.com/p/chromium/issues/detail?id=409402) was experienced. While the regular 'audio' element uses an implementation with opus support - the Web Audio context doesn't. Therefore an additional conversion to the WAV format is done before using the API is used.
