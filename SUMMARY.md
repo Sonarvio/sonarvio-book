@@ -4,6 +4,7 @@
    * [Foreword](forewordmd.md)
    * [Structure](structure.md)
    * [Tools](tools.md)
+* [Implementation](implementation.md)
 * [First Chapter](chapter1.md)
    * [Implementation](implementation.md)
    * [Problems](problems.md)
@@ -13,5 +14,4 @@
    * [Alternatives](alternatives.md)
 * [Result](result.md)
 * Conclusion
-   * [Result](result.md)
 
